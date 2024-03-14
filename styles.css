@@ -269,6 +269,9 @@ RESPONSIVENESS
 
 @media (max-width: 576px) {
   div {
+    #hero {
+      max-width: 350px;
+    }
     .city__name {
       font-size: 40px;
     }
@@ -280,6 +283,14 @@ RESPONSIVENESS
 
     .activities__title {
       font-size: 36px;
+    }
+
+    .activities {
+      max-width: 300px;
+    }
+
+    .activities__section {
+      max-width: 300px;
     }
 
     .activities__sections {
@@ -297,11 +308,17 @@ RESPONSIVENESS
     .activity__info {
       margin: 20px 0;
       font-size: 24px;
+      max-width: 300px;
     }
 
     .activity__info--description {
       height: 300px;
+      max-width: 300px;
       font-size: 18px;
+    }
+
+    .tour__guide--section {
+      max-width: 300px;
     }
 
     .guide__card {
@@ -310,6 +327,7 @@ RESPONSIVENESS
       flex-direction: column;
       align-items: center;
       padding: 20px;
+      margin: 20px;
     }
 
     .guide__img {
